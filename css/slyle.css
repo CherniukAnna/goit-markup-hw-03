@@ -50,25 +50,26 @@ ul {
     box-sizing: border-box;
 }
 
-/* .container {
+.container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    align-items: center;
-    justify-content: space-between ;
-} */
+   
+}
 
-.container {
-    width: 1200px;
-    padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto;
+
+.stealth {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
 }
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 /* header */
 .header-container {
     display: flex;
@@ -113,18 +114,17 @@ line-height: 1.2;
 
 }
 
-/* .contacts-item{
-    margin-left: 344px;
-} */
+
 .logo-item {
     margin-right: 93px;
 }
 
 .site-nav {
-    /* display: flex; */
-    /* align-items: center; */
-    /* margin-left: 93px; */
- }
+    display: flex;
+    align-items: center;
+    margin-left: 93px;
+}
+
 
 .nav-item > .link,
 .contacts-item > .link {
@@ -179,11 +179,10 @@ line-height: 1.2;
 }
 
 /* hero */
-
 .hero .title {
     
     color: var(--white-color);
-
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36; 
@@ -203,14 +202,18 @@ line-height: 1.2;
 }
 
 /* Features */
+.feature-list {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
-.feature-link{
+.feature-link {
         display: flex;
     }
-/* .feature-item{
+.feature-item{
     width: calc((1170px - (30px*3))/4);
     
-    } */
+    }
 
 .feature-item + .feature-item{
     margin-left: 30px;
@@ -223,6 +226,8 @@ line-height: 1.2;
     font-size: 14px;
     line-height: 1.14;
     margin-bottom: 10px;
+
+    
 }
 .text-title {
     font-weight: 400;
@@ -320,7 +325,6 @@ line-height: 1.19;
     margin: -15px;
 }
 .about-portfolio {
-    text-align: center;
     padding: 20px 24px;
 }
 
@@ -387,6 +391,7 @@ font-style: normal;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    
 }
 .button-menu {
     border: none;
@@ -397,6 +402,11 @@ font-style: normal;
     padding-bottom: 6px;
     padding-left: 22px;
     
+}
+
+.button-link:not(:first-child) {
+    display: flex;
+    margin-left: 8px;
 }
 .button.primary {
     color: var(--white-color);
@@ -409,6 +419,10 @@ font-style: normal;
     line-height: 1.88;  
     align-items: center;
     text-align: center;
+
+    padding: 10px 32px;
+    border-radius: 4px;
+    border: none;
 
     
 }
