@@ -273,6 +273,7 @@ line-height: 1.2;
  padding-top: 30px;
  padding-bottom: 30px;
  text-align: center;
+ background-color: #FFFFFF;
 
 }
 
@@ -289,6 +290,7 @@ line-height: 1.19;
 }
 
 .section-item:not(:first-child) {
+    display: block;
     margin-left: 30px;
     border-radius: 0px 0px 4px 4px;
 }
@@ -331,13 +333,11 @@ line-height: 1.19;
 }
 .about-portfolio {
     padding: 20px 24px;
+    
 }
 
 /* Footer */
-.footer-info{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+
 .footer-contact{
     margin-top: 20px;
 }
@@ -378,7 +378,9 @@ line-height: 1.19;
 }
 
 .footer-bg {
-    background-color: var(--hero-background-color)
+    background-color: var(--hero-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
     
 }
 .text {
