@@ -57,6 +57,10 @@ ul {
     margin: 0 auto;
    
 }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 
 .stealth {
@@ -205,7 +209,7 @@ line-height: 1.2;
 /* Features */
 .feature-list {
     padding-top: 94px;
-    padding-bottom: 94px;
+    
 }
 
 .feature-link {
