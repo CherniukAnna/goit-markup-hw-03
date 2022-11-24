@@ -188,10 +188,7 @@ line-height: 1.2;
     letter-spacing: 0.06em;
 
     margin-bottom: 30px;
-    
-
-
-}  
+}
 
 .hero {
     display: flex;
@@ -412,7 +409,7 @@ font-style: normal;
     display: flex;
     margin-left: 8px;
 }
-.button.primary {
+.button-primary {
     color: var(--white-color);
     background-color: var(--blue-color);
 
