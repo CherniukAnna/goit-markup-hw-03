@@ -385,11 +385,13 @@ line-height: 1.19;
 }
 .text {
 font-style: normal;
-
 }
-.info{
+.footer-contact + .footer-contact {
     margin-top: 9px;
+    
 }
+
+
 
 /* Button */
 .button {
